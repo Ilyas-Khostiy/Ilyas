@@ -60,10 +60,8 @@ logo=("""     \033[1;39m .########...######..##.....##
  Facebook  : Raziqullah Saadat
  Tool Name : RSH
  Type type : FREE TRAIL
- Version   : 1.0
+ Version   : 1.1
 ----------------------------------------------
- ilyas-Khostiy version 1.9.8
- For Haters: Tumhare Okat Nhi Mere BAAJI chodne Ke 🤞
 \033[1;37m----------------------------------------------""")
 def linex():
         print('\033[1;37m----------------------------------------------')
@@ -668,7 +666,6 @@ def rndm(ids,passlist):
                                              'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
                                              'accept-language': 'en-US,en;q=0.9',
                                              'cache-control': 'max-age=0',
-                                             'dpr': '3',
                                              'sec-ch-prefers-color-scheme': 'light',
                                              'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
                                              'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
