@@ -47,7 +47,7 @@ for agent in range(10000):
         l='Mobile Safari/533.1'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
-logo=("""\033[1;39m .########...######..##.....##
+logo=("""     \033[1;39m .########...######..##.....##
       \033[1;32m .##.....##.##....##.##.....##
       \033[1;39m .##.....##.##.......##.....##
       \033[1;32m .########...######..#########
@@ -275,7 +275,7 @@ def menu():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 linex()
                                 input(' Press enter to back ')
-                                os.system('python AKING.py')
+                                os.system('python ilyas.py')
                         elif xd in ['2','02']:
                                 import dump
                                 dump.Main()
@@ -336,7 +336,7 @@ def menu():
 def pak():
                 user=[]
                 clear()
-                print('\033[1;31m Code example: 0306,0315,0335,0345')
+                print('\033[1;31m Code example: +9377,+9370,+9379,+9378')
                 code = input('\033[1;37m put code: ')
                 try:
                         limit = int(input('\033[1;31m example: 2000, 3000, 5000, 10000\n\033[1;37m put limit: '))
@@ -362,7 +362,7 @@ def pak():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AKING.py')
+                os.system('python ilyas.py')
 def bd():
                 user=[]
                 clear()
@@ -392,7 +392,7 @@ def bd():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python AKING.py')
+                os.system('python ilyas.py')
 def gmail():
                 os.system('rm -rf .re.txt')
                 clear()
